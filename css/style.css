@@ -6,10 +6,14 @@ body {
     color: #1caa98 !important;
 }
 
+section{
+	padding: 40px 0 40px 0;
+}
+
 .jumbotron{
     background: url(../img/site_showcase_bg.jpg) no-repeat top center;
     color: #fff;
-    height: 500px;
+    height: 600px;
     overflow: none;
 }
 
@@ -21,11 +25,50 @@ body {
     margin-bottom: 40px;
 }
 
-.jumbotron showcase-img{
+.jumbotron img.app-btn{
+    width: 40%;
+    margin-right: 30px;
+}
+
+.jumbotron img.showcase-img{
     width: 75%;
 }
 
-.jumbotron .app-btn{
-    width: 40%;
-    margin-right: 30px;
+img.demo{
+	width: 100%;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+section#feature{
+	background: #1caa98;
+	color: #fff;
+	padding: 40px;
+	overflow: auto;
+}
+
+section#feature ul li{
+	font-size: 22px;
+	list-style: none;
+	line-height: 2em;
+}
+
+footer{
+	background: #333;
+	color: #fff;
+	padding: 30px 0 20px 0;
+}
+
+footer li{
+	float: left;
+	padding: 0 10px 0 10px;
+	list-style: none;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer p{
+	float: right;
 }
